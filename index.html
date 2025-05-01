@@ -1,0 +1,31 @@
+                         <!--MELY RADO PATIUNG-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalkulator Suhu</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Konversi Suhu</h1>
+    <p>Masukkan suhu dan pilih arah konversi:</p>
+
+    <div class="form-group">
+      <input type="text" id="inputSuhu" placeholder="Masukkan suhu..." />
+      <select id="satuan">
+        <option value="cToF">Celsius ke Fahrenheit</option>
+        <option value="fToC">Fahrenheit ke Celsius</option>
+      </select>
+      <button onclick="konversiSuhu()">Konversi</button>
+    </div>
+
+    <div class="result-box" id="hasilKonversi"></div>
+    <div class="explanation" id="penjelasanKonversi"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
